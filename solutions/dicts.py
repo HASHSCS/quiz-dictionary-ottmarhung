@@ -11,7 +11,7 @@ def remove_key(data_dict, key):
         del data_dict[key] 
         return data_dict
     else:
-        None
+        return data_dict
     """
     Removes the entry with the specified key from the dictionary.
     If the key is not found, the dictionary should remain unchanged.
